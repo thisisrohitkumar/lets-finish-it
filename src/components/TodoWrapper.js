@@ -17,7 +17,7 @@ export default function TodoWrapper() {
     const deleteTodo = id => {
         setTodos(todos.filter(todo => todo.id !== id))
         setBreadcrum(!breadcrum)
-        setTimeout(setBreadcrum, 3000)
+        setTimeout(setBreadcrum, 1000)
     }
 
   return (

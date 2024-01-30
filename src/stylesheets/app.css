@@ -25,6 +25,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     max-height: 70vh;
+    overflow-y: scroll;
 }
 
 .todo-wrapper > h1{
@@ -109,7 +110,7 @@ i{
 
 .hide{
     position: absolute;
-    bottom: -10%;
+    bottom: -100%;
     left: 50%;
     translate: -50% 0;
     background: green;
